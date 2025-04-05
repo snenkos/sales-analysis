@@ -9,7 +9,7 @@ This project provides a comprehensive analysis of sales data to derive actionabl
 - **Financial Analysis:** Calculating profit margins to identify the most profitable products.
 
 ## Data
-The project uses a cleaned sales dataset (`cleaned_sales_project.csv`) that includes the following key columns:
+The project uses a cleaned sales dataset stored in an Excel file (`cleaned_sales_project.xlsx`) that includes the following key columns:
 - Date, Title, Category, Supplier
 - Sales Quantity, Original Price, Discount %, Final Price
 - Unit Cost, Revenue, Profit
@@ -19,7 +19,7 @@ The project uses a cleaned sales dataset (`cleaned_sales_project.csv`) that incl
 
 1. **Data Exploration:**  
    - Import libraries: pandas, numpy, matplotlib, and seaborn.
-   - Load and inspect the dataset.
+   - Load and inspect the Excel dataset.
    - Identify missing values in key columns (e.g., `Original Price`, `Final Price`).
 
 2. **Supply Chain Analytics:**  
